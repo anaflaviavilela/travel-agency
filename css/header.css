@@ -1,0 +1,74 @@
+@import url(style.css);
+
+header{
+    background-image: url("../img/capa-desktop.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    height: 1080px;
+    width: 100%;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo{
+    margin-left: 4%;
+    margin-top: 1%;
+}
+
+.header-titulos{
+    display: flex;
+    gap: 25%;
+    font-family: var(--josefine-sans);
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--white);
+    margin-top: 2%;
+}
+
+.header-interacoes{
+    margin-top: 2%;
+    margin-right: 4%;
+}
+
+.header-interacoes__usuario{
+    margin-left: 15px;
+}
+
+.div{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 33rem;
+    margin-right: 25rem;
+}
+
+.header-button {
+    background-color: transparent; 
+    border: 1px solid var(--white);
+    border-radius: 10px;
+    color: var(--white); 
+    padding: .8rem 3.5rem; 
+    text-decoration: none; 
+    display: inline-block;
+}
+
+.header-button img {
+    vertical-align: middle; 
+    margin-left: 10px; 
+}
+
+.header-button a {
+    text-decoration: none; 
+    color: inherit; /* Herda a cor do texto do pai (.header-button) */
+    font-family: var(--prompt);
+    font-weight: 600;
+}
+
+
+
+
+

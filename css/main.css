@@ -1,0 +1,19 @@
+@import url(style.css);
+
+.banner{
+    margin: 130% 0%;
+    display: flex;
+    gap: 30%;
+}
+
+.banner-img{
+    border-radius: 50px;
+}
+
+.img-lateral-italia{
+    margin-left: 45%;
+}
+
+.img-lateral-tailandia{
+    margin-right: 25%;
+}
